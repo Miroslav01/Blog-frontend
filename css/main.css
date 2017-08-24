@@ -263,6 +263,24 @@ textarea {
         list-style-type: none;
         border-bottom: 1px dotted #666;
     }
+
+    #comments {
+        margin-top: 20px
+    }
+
+    .comment-left {
+        float: left;
+        width: 8%
+    }
+
+    .comment-left img {
+        width: 100%;
+    }
+
+    .comment-right {
+        float: right;
+        width: 90%
+    }
 /* ==========================================================================
    Media Queries
    ========================================================================== */
