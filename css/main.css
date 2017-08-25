@@ -328,8 +328,43 @@ textarea {
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (max-width: 900px) {
+        #branding h1 {
+            display: none;
+        }
 
+        #branding {
+            width: 20%;
+        }
+
+        #main-nav {
+            width: 80%;
+            list-style-type: none
+        }
+
+        #main-nav li {
+             list-style-type: none
+
+        }
+
+        #sidebar {
+            float: none;
+            width: 100%
+        }
+
+        #content {
+            float: none;
+            width: 100%
+        }
+        
+        #main-footer .footer-left,#main-footer .footer-right {
+            float: none;
+        }
+        
+        .footer-nav {
+            float: none;
+            width: 100%
+        }
 }
 
 @media print,
