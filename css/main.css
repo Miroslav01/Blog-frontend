@@ -281,6 +281,49 @@ textarea {
         float: right;
         width: 90%
     }
+
+    .contact-form {
+        margin-top: 20px;
+        padding: 5px 20px 10px 20px;
+        background: #333;
+        border-radius: 10px;
+        color: #fff;
+    }
+
+    .contact-form input[type="text"], input[type="email"] {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        height: 20px;
+        padding: 5px;
+        width: 97%
+    }
+
+    textarea {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 5px;
+        width: 97%
+    }
+
+    button {
+        color: black;
+    }
+
+    #add-form input[type="text"] {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        height: 20px;
+        padding: 5px;
+        width: 97%
+    }
+
+    #add-form select {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        height: 50px;
+        padding: 5px;
+        width: 98%
+    }
 /* ==========================================================================
    Media Queries
    ========================================================================== */
